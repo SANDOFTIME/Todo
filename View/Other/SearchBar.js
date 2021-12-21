@@ -33,7 +33,7 @@ export class SearchBar extends HTMLElement {
                 }
             </style>
             <div class="root">
-                <draw-image img="/Src/search.png"></draw-image>
+                <draw-image img="Src/search.png"></draw-image>
                 <input type="search" id="search" placeholder="请输入搜索内容">
             </div>
         `
