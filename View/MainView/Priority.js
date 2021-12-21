@@ -203,21 +203,21 @@ export class ReminderInfo extends HTMLElement {
                 </div>
                 <div class="item" style="margin-top: 10px">
                     <div class="item_1">
-                        <draw-image img="../../Src/reminder.png"></draw-image>
+                        <draw-image img="/Todo/Src/reminder.png"></draw-image>
                         <div class="t_lab" style="margin-left: 5px">日期</div>
                     </div>
                     <input type="datetime-local" id="date">
                 </div>
                 <div class="item">
                     <div class="item_1">
-                        <draw-image img="../../Src/reminder.png"></draw-image>
+                        <draw-image img="/Todo/Src/reminder.png"></draw-image>
                         <div class="t_lab" style="margin-left: 5px">提醒</div>
                     </div>
                     
                 </div>
                 <div class="item" >
                     <div class="item_1">
-                        <draw-image img="../../Src/clock.png"></draw-image>
+                        <draw-image img="/Todo/Src/clock.png"></draw-image>
                         <div class="t_lab" style="margin-left: 5px">重复</div>
                     </div>
                 </div>
