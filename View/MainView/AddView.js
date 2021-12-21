@@ -23,7 +23,7 @@ export class AddView extends HTMLElement {
                 }
             </style>
             <div class="root">
-                <draw-image img="Src/New.png"></draw-image>
+                <draw-image img="/Todo/Src/New.png"></draw-image>
                 <input class="textField" type="text" placeholder="请输入...">
             </div>
         `
