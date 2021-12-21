@@ -23,7 +23,7 @@ export class DrawImage extends HTMLElement {
         if (this.hasAttribute('img')) {
             imgUrl = this.getAttribute('img')
         } else {
-            imgUrl = '../Src/more.png'
+            imgUrl = '/Src/more.png'
         }
         item.style.backgroundImage = 'url('+imgUrl+')'
     }

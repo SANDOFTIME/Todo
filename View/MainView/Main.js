@@ -65,7 +65,7 @@ export class MainPage extends HTMLElement {
             <div id="right">
                 <div id="content_title">
                 <div id="title_view">这是标题</div>
-                <draw-image img="/Src/New.png" id="new-text" style="margin-left: 5px"></draw-image>
+                <draw-image img="/Srcc/New.png" id="new-text" style="margin-left: 5px"></draw-image>
             </div>
             <div id="content_view">
             
