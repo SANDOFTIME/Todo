@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#root {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+#login_root {
+    width: 300px;
+    height: 300px;
+    background: #f4f4f4;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 2px lightgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#icon_layer {
+    margin: 20px auto 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px lightgrey;
+    /*box-sizing: border-box;*/
+    background-image: url("../Src/icon1024.jpg");
+    background-size: 200px 200px;
+}
+#apple-sign-in-button {
+    margin: auto auto 20px auto;
+    width: fit-content;
+}
